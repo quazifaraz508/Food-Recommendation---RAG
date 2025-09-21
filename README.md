@@ -1,3 +1,5 @@
+![Uploading screencapture-localhost-3000-2025-09-21-22_24_00.png…]()
+
 # 🍽️ Food Search Systems Comparison
 
 An interactive web application that demonstrates three approaches to food search: Interactive Search, Advanced Search, and a RAG-powered Chatbot.
@@ -117,7 +119,6 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-<img width="1920" height="1308" alt="screencapture-localhost-3000-2025-09-21-22_24_00" src="https://github.com/user-attachments/assets/59ae16b3-38de-44f9-bc96-ce38f2dff03d" />
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
