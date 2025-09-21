@@ -1,3 +1,110 @@
+🍽️ Food Search Systems Comparison
+
+An interactive web application that demonstrates three approaches to food search: Interactive Search, Advanced Search, and a RAG-powered Chatbot.
+
+The project combines a React frontend with a Django backend, using ChromaDB vector search and RAG pipelines for semantic understanding and retrieval.
+
+🚀 Features
+
+Interactive Search → Finds food items using vector similarity (ChromaDB).
+
+Advanced Search → Filters results by cuisine, calories, and match score.
+
+RAG Chatbot → Retrieval-Augmented Generation (RAG) chatbot that generates conversational, context-aware recommendations.
+
+Vector Search → Embeddings stored and queried in ChromaDB for fast semantic retrieval.
+
+Modern UI → Dark-themed, responsive interface with real-time search results.
+
+## 🛠️ Tech Stack
+Frontend
+
+React (Create React App)
+
+TailwindCSS / CSS
+
+Backend
+
+Django (Python)
+
+Django REST Framework (for APIs)
+
+ChromaDB (vector database for embeddings & similarity search)
+
+Hugging Face / Sentence Transformers (for embeddings)
+
+RAG Pipeline (for contextual response generation)
+
+## ⚙️ Installation & Setup
+1. Clone the Repository
+git clone https://github.com/yourusername/food-search-system.git
+cd food-search-system
+
+## 2. Backend (Django + RAG + ChromaDB)
+cd backend
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+
+
+## Backend runs on 👉 http://127.0.0.1:8000/
+
+3. Frontend (React)
+cd frontend
+npm install
+npm start
+
+
+Frontend runs on 👉 http://localhost:3000/
+
+## 📡 API Endpoints (Examples)
+
+POST /api/search/interactive/ → Vector similarity search (ChromaDB).
+
+POST /api/search/advanced/ → Filtered results (e.g., by cuisine, calories).
+
+POST /api/search/rag/ → RAG-powered chatbot recommendations.
+
+## 📖 How It Works
+
+User enters a query (e.g., "chocolate dessert").
+
+Frontend sends the query to Django backend.
+
+Backend:
+
+Converts query into embeddings using a Sentence Transformer model.
+
+Performs similarity search in ChromaDB.
+
+Passes retrieved context into a RAG pipeline.
+
+Results are displayed in three panels:
+
+Interactive Search (ranked by similarity score).
+
+Advanced Search (structured results with filters).
+
+RAG Chatbot (AI-generated conversational response).
+
+📷 Preview
+
+## 📌 Future Enhancements
+
+Support for multiple embedding models.
+
+User-specific history & favorites.
+
+Deploy ChromaDB as a persistent external service.
+
+Add multilingual RAG chatbot support.
+
+👨‍💻 Author
+
+Developed with ❤️ using React, Django, RAG, and ChromaDB.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
