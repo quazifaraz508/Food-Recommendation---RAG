@@ -1,4 +1,4 @@
-🍽️ Food Search Systems Comparison
+### 🍽️ Food Search Systems Comparison
 
 An interactive web application that demonstrates three approaches to food search: Interactive Search, Advanced Search, and a RAG-powered Chatbot.
 
