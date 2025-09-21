@@ -1,4 +1,4 @@
-![Uploading screencapture-localhost-3000-2025-09-21-22_24_00.png…]()
+<img width="1920" height="1308" alt="screencapture-localhost-3000-2025-09-21-22_24_00" src="https://github.com/user-attachments/assets/1a2d49b4-9f4d-4cc4-85ee-526b69183d79" />
 
 # 🍽️ Food Search Systems Comparison
 
